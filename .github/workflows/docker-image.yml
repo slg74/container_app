@@ -22,4 +22,4 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - name: Push the Docker image
-      run: docker push my-docker-hub-username/container-app-simple:$(date +%s)
+      run: docker push slg74/container-app-simple:$(date +%s)
